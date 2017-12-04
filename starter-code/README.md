@@ -22,10 +22,10 @@ Follow these instructions carefully and in order.
 
 ##### Investigate how `let` and `const` are now used in the code. Where did you need to convert `const` into `let` to make the code work? Can you identify any patterns/similarities?
 
-(Put your answer here)
+'Const' can be declared globally whereas 'let' can only be used within its code block and does not allow for manipulation outside of that. All the for loops needed to be used with 'let'.
 
 ---
 
 ##### How did it go with making the adaptation from concatenations to template literal notation? Do you think you'll mostly use template literal notation from now on?
 
-(Put your answer here)
+Yes, I will be using template literal rather than concatenations from now on. It takes a lot less time not having to type all the + + and '' around everything... But why are the template literals underlined in red when they worked???
