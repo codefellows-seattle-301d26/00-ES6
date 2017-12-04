@@ -22,7 +22,7 @@ Follow these instructions carefully and in order.
 
 ##### Investigate how `let` and `const` are now used in the code. Where did you need to convert `const` into `let` to make the code work? Can you identify any patterns/similarities?
 
-(Put your answer here)
+I had to change all the const to let wherever a primitive was being changed as in all the for loops where i was being incremented. This was also true for totalClicks which I changed back because it was also being incremented. I also had to change allproducts array back to let because there was a line of code that tried to change the object assigned to allproducts rather than changing the array values like in a push.
 
 ---
 
