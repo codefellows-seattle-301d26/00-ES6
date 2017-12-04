@@ -28,4 +28,4 @@ I had to change all the const to let wherever a primitive was being changed as i
 
 ##### How did it go with making the adaptation from concatenations to template literal notation? Do you think you'll mostly use template literal notation from now on?
 
-(Put your answer here)
+The change from concatenation to template literal went well and I much prefer template literal and will be using that from now on.
