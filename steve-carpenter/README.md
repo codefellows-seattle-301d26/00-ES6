@@ -22,10 +22,10 @@ Follow these instructions carefully and in order.
 
 ##### Investigate how `let` and `const` are now used in the code. Where did you need to convert `const` into `let` to make the code work? Can you identify any patterns/similarities?
 
-(Put your answer here)
+const had to be modified to let where the value was updated. const disallows modification of the value after it has been declared const (eg constant).
 
 ---
 
 ##### How did it go with making the adaptation from concatenations to template literal notation? Do you think you'll mostly use template literal notation from now on?
 
-(Put your answer here)
+It went well. I didn't realize JS had this, but it is preferred in Ruby as string interpolation and Python 3.7 as f-strings so I'll probably stick to using this.
