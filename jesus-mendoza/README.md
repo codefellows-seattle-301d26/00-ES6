@@ -22,10 +22,10 @@ Follow these instructions carefully and in order.
 
 ##### Investigate how `let` and `const` are now used in the code. Where did you need to convert `const` into `let` to make the code work? Can you identify any patterns/similarities?
 
-(Put your answer here)
+In the arrays, where i was used as a counter and where variables needed to be redefined after they were created. It seems like 'const' requires what ever variable is created using it to remain keep the same value throughout the codebase. so if you assign i as i=0 when you try to use it as a counter it no longer works since the value of i cannot be re-assigned.
 
 ---
 
 ##### How did it go with making the adaptation from concatenations to template literal notation? Do you think you'll mostly use template literal notation from now on?
 
-(Put your answer here)
+It was pretty straight forward for the most part and it definitely makes it easier when you are trying to print some sort of text to screen when you can see exactly where the spaces will be when you combine variables and strings. I will definitely try to use it as much as possible from now on.
