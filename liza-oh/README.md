@@ -22,10 +22,10 @@ Follow these instructions carefully and in order.
 
 ##### Investigate how `let` and `const` are now used in the code. Where did you need to convert `const` into `let` to make the code work? Can you identify any patterns/similarities?
 
-(Put your answer here)
+'Let' needed to be used for the allProducts array, totalClicks counter and the for loops. The way I understand it is 'const' is similar to an ID in CSS and 'let' is similar to a clss In CSS. So, const can't be changed, but let can be altered and added to. Still trying to figure it all out, but that's my basic understand of it right now.  
 
 ---
 
 ##### How did it go with making the adaptation from concatenations to template literal notation? Do you think you'll mostly use template literal notation from now on?
 
-(Put your answer here)
+It went totally fine. I'd like to start using template literal notation from now on. 

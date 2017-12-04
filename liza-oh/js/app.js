@@ -34,8 +34,8 @@ function displayPics() {
       viewed.push(rando);
     }
   }
-  // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the constiable declaration from `const to `const`.
-  // PUT YOUR RESPONSE IN THIS COMMENT
+  // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the constiable declaration from `var to `let`.
+  // console.log(rando) was previously defined as a local variable and changing it to let would not allow the console.log to render. 
   console.log(viewed)
 
   // To the DOM and beyond!
