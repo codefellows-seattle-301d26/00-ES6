@@ -22,10 +22,10 @@ Follow these instructions carefully and in order.
 
 ##### Investigate how `let` and `const` are now used in the code. Where did you need to convert `const` into `let` to make the code work? Can you identify any patterns/similarities?
 
-(Put your answer here)
+Every variable that had input in the functionality like arrays, object constructors, for loops, etc. Basically all variables that were called in more than once to count the clicks and display the data onto the graph was a let. Const were the static variables that were just used to assign values to a variable.
 
 ---
 
 ##### How did it go with making the adaptation from concatenations to template literal notation? Do you think you'll mostly use template literal notation from now on?
 
-(Put your answer here)
+The differences are obvious but neither have benefits or downfalls over the other in my opinion. They both have a simlar amount of syntax punctuation, they both have a clear way of pointing out vafiables vs strings for the dev to understand. I think it just comes down to the developers bias. In this case my bias is based on class material so I will most likely continue to use the new concactenation format.
