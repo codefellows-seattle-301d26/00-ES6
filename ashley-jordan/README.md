@@ -28,4 +28,4 @@ Follow these instructions carefully and in order.
 
 ##### How did it go with making the adaptation from concatenations to template literal notation? Do you think you'll mostly use template literal notation from now on?
 
-Yes, I will be using template literal rather than concatenations from now on. It takes a lot less time not having to type all the + + and '' around everything... But why are the template literals underlined in red when they worked???
+Yes, I will be using template literal rather than concatenations from now on. It takes a lot less time not having to type all the + + and '' around everything.
