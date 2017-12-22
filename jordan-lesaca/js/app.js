@@ -2,7 +2,7 @@
 
 const names = ['bag', 'banana', 'bathroom', 'boots', 'breakfast', 'bubblegum', 'chair', 'cthulhu', 'dog-duck', 'dragon', 'pen', 'pet-sweep', 'scissors', 'shark', 'sweep', 'tauntaun', 'unicorn', 'usb', 'water-can', 'wine-glass'];
 
-const allProducts = [];
+let allProducts = [];
 const container = document.getElementById('image_container');
 const viewed = [];
 const labels = [];
@@ -10,13 +10,13 @@ const pics = [document.getElementById('left'),
 document.getElementById('center'), //eslint-disable-line
 document.getElementById('right')]; //eslint-disable-line
 const list = document.getElementById('productlist');
-const totalClicks = 0;
+let totalClicks = 0;
 const views = [];
 const votes = [];
 
 function Product(name) {
   this.name = name;
-  this.path = 'img/' + name + '.jpg';
+  this.path = `img/${name}.jpg`;
   this.votes = 0;
   this.views = 0;
   allProducts.push(this);
@@ -34,7 +34,7 @@ function displayPics() {
       viewed.push(rando);
     }
   }
-  // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the letiable declaration from `let to `let`.
+  // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the variable declaration from `let to `let`.
   // PUT YOUR RESPONSE IN THIS COMMENT. let does not create a property on the global object. When you change var to let, you are changing the scope of the values. 
   console.log(viewed);
 
@@ -61,7 +61,7 @@ function handleClick(event) {
   for(let i = 0; i < names.length; i++) {
     if(event.target.id === allProducts[i].name) {
       allProducts[i].votes += 1;
-      console.log(event.target.id + ' has ' + allProducts[i].votes + ' votes in ' + allProducts[i].views + ' views');
+      console.log('$(event.target.id) has $(allProducts[i].votes) votes $(allProducts[i].views) views');
     }
   }
   localStorage.busmall = JSON.stringify(allProducts);
@@ -72,7 +72,7 @@ function handleClick(event) {
 function showList() {
   for(let i = 0; i < allProducts.length; i++) {
     const liEl = document.createElement('li');
-    liEl.textContent = allProducts[i].name + ' has ' + allProducts[i].votes + ' votes in ' + allProducts[i].views + ' views';
+    liEl.textContent = ('$(allProducts[i].name) has $(allProducts[i].votes) votes in $(allProducts[i].views) views');
     list.appendChild(liEl);
   }
 }
