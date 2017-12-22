@@ -28,4 +28,4 @@ Follow these instructions carefully and in order.
 
 ##### How did it go with making the adaptation from concatenations to template literal notation? Do you think you'll mostly use template literal notation from now on?
 
-(I think it is a little easier to type out than concatenations.)
+(I think it is a little easier to type out than concatenations. I will likely use them more often.)

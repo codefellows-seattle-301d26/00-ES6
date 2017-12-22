@@ -16,7 +16,7 @@ const votes = [];
 
 function Product(name) {
   this.name = name;
-  this.path = 'img/' + name + '.jpg';
+  this.path = `img/${name}.jpg`;
   this.votes = 0;
   this.views = 0;
   allProducts.push(this);
@@ -34,7 +34,7 @@ function displayPics() {
       viewed.push(rando);
     }
   }
-  // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the letiable declaration from `let to `let`.
+  // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the variable declaration from `let to `let`.
   // PUT YOUR RESPONSE IN THIS COMMENT. let does not create a property on the global object. When you change var to let, you are changing the scope of the values. 
   console.log(viewed);
 
